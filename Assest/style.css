@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header{
+    position: fixed;
+    width: 100%;
+} */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.transparent {
+    background: transparent;
+}
+
+.opaque {
+    background: #717171; /* Change this color when the navbar becomes opaque */
+}
+.head-text a{
+color: #fff;
+cursor: pointer;
+}
+.head-text a:hover{
+    color: #EC7F42;
+    }
+.navbar-brand{
+    font-weight: 900;
+    color: #fff;
+}
+.navbar-brand:hover{
+    font-weight: 900;
+    color: #fff;
+}
+.col-bt{
+    background-color: #fff;
+    color: #000 !important;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.col-bt:hover{
+    background-color: #EC7F42;
+    color: #fff !important;
+    border-radius: 20px;
+    font-weight: 600;
+}
+/* hero */
+.hero-img{
+    background-image: url("./image/hero-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 570px;
+}
+.hum-hero {
+    height: 570px;
+}
+.mak{
+    margin-top: 40%;
+    font-weight: 700;
+    color: #fff;
+}
+.para{
+    color: #fff;
+}
+
+.conact{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+}
+.conact:hover{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+}
+
+.conact-1{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+}
+.conact-1:hover{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+}
+.sect-2{
+    margin-top: 100px;
+}
+.we-do{
+    font-weight: 700;
+}
+.lo-rem{
+    font-size: 23px;
+    width: 76%;
+}  
+.hum-img {
+    height: 400px;
+}
+.conact-2 {
+    background-image: linear-gradient(to right, #403B4A 0%, #E7E9BB  51%, #403B4A  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .conact-2:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ #bgservice{
+    background-image: url('../Assest/image/nsa-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+    margin-top: 80px;
+ }
+ .our{
+    text-align: center;
+   padding-top: 40px;
+    font-weight: 700;
+ }
+ .li-hr {
+    margin: 0 auto; 
+    width: 10%; 
+    border: 0;
+    border-top: 4px solid #333; 
+}
+.ser-1 {
+    height: 225px;
+}
+.new-ser{
+    margin-top: 50px;
+}
+.ind {
+    padding: 10px;
+    width: 70%;
+    margin-top: -50px;
+    border-radius: 20px;
+}
+.ind p{
+    font-size: 15px;
+}
+.ind a{
+    color: #8B3A3A !important;
+    cursor: pointer;
+}
+.ind h4{
+    font-weight: 600;
+}
+#bgservices{
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+#bgservices-1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#bgservices h3{
+ font-weight: 700;
+}
+#bgservices p{
+width: 70%;
+   }
+   .pink{
+    background-color: #F5E2D1;
+    padding: 20px;
+   }
+   .ser-21{
+    height: 350px;
+    margin-top: 20px;
+    margin-left: -40px;
+   }
+   .owl-theme .owl-nav {
+    margin-top: 10px;
+    display: none !important;
+}
+
+.rating-box {
+    /* padding: 25px 55px 35px; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+  .rating-box header {
+    font-size: 22px;
+    color: #dadada;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .rating-box .stars {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  .stars i {
+    color: #ff9c1a;
+    font-size: 35px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  .sed{
+    text-align: center;
+    color: #fff;
+  }
+  .shadow{
+    width: 100%;
+    background-color: #000;
+    border-radius: 20px;
+  }
+  .maicle{
+    text-align: center;
+    font-weight: 800;
+    color: #fff;
+  }
+  .pad{
+    padding: 45px;
+  }
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ff9c1a;
+    height: 15px;
+    width: 15px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.s-1{
+    height: 245px;
+}
+.dolors{
+    width: 80%;
+}
+.back-col{
+    background-color: #000;
+    color: #fff;
+}
+.back-col a{
+    text-decoration-line: none;
+    color: #fff;
+}
+.back-col a p{
+   margin-bottom: 10px;
+}
+.pad {
+    padding: 50px 40px 50px 40px;
+    font-size: 12px;
+    margin-top: -20px;
+    /* margin-bottom: 20px; */
+}
+.footdemo {
+    padding: 45px 0px 0px 0px;
+    font-weight: 700;
+}
+.fa-brands, .fab {
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+.lat{
+    margin-bottom: 80px;
+}
+
+
+
+@media (max-width:540px){
+    .hero-img {
+        height: 100%;
+    }
+    .hum-hero {
+        height: 319px;
+    }
+    .hum-img {
+        height: 230px;
+        margin-bottom: 20px;
+        margin-top: -52px;
+    }
+    .lo-rem {
+        font-size: 23px;
+        width: 100%;
+    }
+    .ind {
+        padding: 10px;
+        width: 85%;
+        margin-top: -50px;
+        border-radius: 20px;
+        margin-bottom: 25px;
+    }
+    #bgservice {
+        height: 100%;
+        margin-top: 80px;
+    }
+    .rating-box .stars {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .li-hr {
+        margin: 0 auto;
+        width: 30%;
+        border: 0;
+        border-top: 4px solid #333;
+    }
+    .ober{
+        display: flex;
+        justify-content: center;
+    }
+    .ser-21 {
+        height: 231px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    #bgservices p {
+        width: 100%;
+    }
+    .str{
+        margin-bottom: 30px;
+    }
+    #bgservices-1 {
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    .upst{
+        margin-top: -40px;
+    }
+    .transparent {
+        background: #858585;
+    }
+    .navbar-toggler {
+      
+        color: rgb(255 255 255);
+        background-color: transparent;
+        border: none !important;
+        border-radius: var(--bs-navbar-toggler-border-radius);
+        transition: var(--bs-navbar-toggler-transition);
+    }
+}
